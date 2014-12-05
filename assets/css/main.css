@@ -1,0 +1,76 @@
+/**
+ *   __
+ *  /  )_  _/    _
+ * /(_/(/(//()/)(/
+ *       /
+ *
+ * Notes on this document:
+ * - Follows the SUIT CSS styling methodology
+ * - Properties is sorted alphabetically
+ *
+ */
+
+html {
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+@media (min-width: 420px) {
+  html { font-size: 18px; }
+}
+
+@media (min-width: 800px) {
+  html { font-size: 20px; }
+}
+
+@media (min-width: 1300px) {
+  html { font-size: 22px; }
+}
+
+a {
+  color: #6ebe5b;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #5fa94b;
+  outline: 0;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+/**
+ * Utilities
+ */
+
+.u-cf:before,
+.u-cf:after {
+  content: "";
+  display: table;
+}
+
+.u-cf:after {
+  clear: both;
+}
+
+.u-textCenter {
+  text-align: center;
+}
+
+/**
+ * Components
+ */
+
+.Splash {
+  width: 80%;
+  margin: 8% 10%;
+  max-width: 600px;
+}

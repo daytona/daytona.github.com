@@ -1,9 +1,10 @@
-{% include header.html %}
-
-<header class="SiteHead" role="banner">
-  <h1><a class="SiteHead-logo" href="/">Daytona</a>
-</header>
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.description }}">
+<link rel="stylesheet" href="/assets/css/normalize.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 
 {{ content }}
 
-{% include footer.html %}
+<script src="/assets/javascript/main.js" async></script>

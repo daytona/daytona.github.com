@@ -1,6 +1,6 @@
 (function (window) {
   'use strict';
 
-  // Make magic!
+  console.log("Make magic!");
 
 }());

@@ -1,0 +1,26 @@
+{
+  "browser": true,
+  "strict": true,
+  "eqeqeq": true,
+  "indent": 2,
+  "newcap": true,
+  "plusplus": true,
+  "unused": true,
+  "trailing": true,
+  "loopfunc": false,
+  "nomen": true,
+  "white": true,
+  "undef": true,
+  "latedef": true,
+  "curly": true,
+  "globals": {
+    "require": true,
+    "define": true,
+    "_gaq": true
+  },
+  "-W015": true,
+  "-W098": true,
+  "-W099": true,
+  "-W013": true,
+  "-W105": true
+}

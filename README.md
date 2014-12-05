@@ -4,14 +4,14 @@ Here’s to the crazy ones osv..
 
 ## Setup
 
-Install github-pages gem
+Install dependencies
 ```bash
 bundle install
 ```
 
-Run jekyll locally and watch file changes
+Run jekyll locally and watch for file changes
 ```bash
-bundle exec jekyll serve --watch
+jekyll serve --watch
 ```
 
 ## Deploy

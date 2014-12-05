@@ -1,0 +1,16 @@
+name: Daytona Tech
+
+description: Cool stuff we built!
+
+author: Daytona Tech
+
+author_email: tech@daytona.se
+
+url: http://daytona.github.io/
+
+
+
+
+markdown: rdiscount
+
+permalink: pretty

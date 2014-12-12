@@ -71,6 +71,6 @@ img {
 
 .Splash {
   width: 80%;
-  margin: 8% 10%;
+  margin: 8% 10% 0;
   max-width: 600px;
 }

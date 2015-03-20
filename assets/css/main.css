@@ -66,9 +66,9 @@ img {
 }
 
 .u-textHyphenate {
+  hyphens: auto;
   word-break: break-all;
   word-break: break-word;
-  hyphens: auto;
 }
 
 /**
@@ -76,8 +76,8 @@ img {
  */
 
 .Splash {
-  width: 80%;
+  display: block;
   margin: 5% auto;
   max-width: 650px;
-  display: block;
+  width: 80%;
 }
